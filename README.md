@@ -19,4 +19,6 @@ If you want to know more about the content, there is a trello page dedicated to 
 
 If you want to know more about the development progress there is a projects tab that has all the current projects.
 
+The wiki tab has information to make your own pages. (Format, Style, Content)
+
 Happy trails kid!!
