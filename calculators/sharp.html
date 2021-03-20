@@ -1,0 +1,125 @@
+<style>
+	.sharpCalc {
+		width: 300px;
+		height: 500px;
+	}
+	.sharpDisplay, .sharpNav, .sharpFunctions, .sharpBottom, .sharpNum, .sharpOp {
+		width: 100%;
+		vertical-align: middle;
+		text-align: center;
+		background-color: black;
+		color: white;
+		border-collapse: separate;
+	}
+	.sharpDisplay {
+		height: 75px;
+	}
+	.sharpNav {
+		height: 45px;
+	}
+	.sharpFunctions {
+		height: 45px;
+	}
+	.sharpFunctions td{
+		width: 16.66%;
+	}
+	.sharpNum td{
+		width: 33.33%;
+	}
+	.sharpOp td{
+		width: 50%;
+	}
+</style>
+
+<div id="sharpCalc" class="sharpCalc">	
+	<table id="sharpDisplay" class="sharpDisplay">
+		<tr><td>Display</td></tr>
+	</table>
+	<table id="sharpNav" class="sharpNav">
+		<tr>
+			<td>2nd F</td>
+			<td rowspan="3" style="vertical-align: middle;">&#11207</td>
+			<td>&#9650</td>
+			<td rowspan="3" style="vertical-align: middle;">&#11208</td>
+			<td>ON/C</td>
+		</tr>
+		<tr>
+			<td>ALPHA</td>
+			<td></td>
+			<td>MODE</td>
+		</tr>
+		<tr>
+			<td>MATH</td>
+			<td>&#9660</td>
+			<td>BS</td>
+		</tr>
+	</table>
+	<table id="sharpFunctions" class="sharpFunctions">
+		<tr>
+			<td>$$\text{hyp}$$</td>
+			<td>$$\sin$$</td>
+			<td>$$\cos$$</td>
+			<td>$$\tan$$</td>
+			<td>$$\int dx$$</td>
+			<td>$$D^{\circ} M' S$$</td>
+		</tr>
+		<tr>
+			<td>$$\text{CNST}$$</td>
+			<td>$$y^x$$</td>
+			<td>$$x^2$$</td>
+			<td>$$\log$$</td>
+			<td>$$\ln$$</td>
+			<td>$$(x,y)$$</td>
+		</tr>
+		<tr>
+			<td>$$\text{Exp}$$</td>
+			<td>$$a/b$$</td>
+			<td style="color:#00FF93;">RCL</td>
+			<td style="color:#00FF93;">STO</td>
+			<td style="color:#00FF93;">M+</td>
+			<td style="font-size: 10px;">CHANGE</td>
+		</tr>
+	</table>
+	<table id="sharpBottom" class="sharpBottom"><tr>
+		<td style="width: 60%;"><table id="sharpNum" class="sharpNum">
+			<tr>
+				<td>$$7$$</td>
+				<td>$$8$$</td>
+				<td>$$9$$</td>
+			</tr>
+			<tr>
+				<td>$$4$$</td>
+				<td>$$5$$</td>
+				<td>$$6$$</td>
+			</tr>
+			<tr>
+				<td>$$1$$</td>
+				<td>$$2$$</td>
+				<td>$$3$$</td>
+			</tr>
+			<tr>
+				<td>$$0$$</td>
+				<td>$$\cdot$$</td>
+				<td>$$(-)$$</td>
+			</tr>
+		</table></td>
+		<td width="40%"><table id="sharpOp" class="sharpOp">
+			<tr>
+				<td>$$($$</td>
+				<td>$$)$$</td>
+			</tr>
+			<tr>
+				<td>$$\times$$</td>
+				<td>$$\div$$</td>
+			</tr>
+			<tr>
+				<td>$$+$$</td>
+				<td>$$-$$</td>
+			</tr>
+			<tr>
+				<td colspan="2">$$=$$</td>
+			</tr>
+		</table></td>
+	</tr></table>
+</div>
+

@@ -165,7 +165,7 @@
 			<div id="calcUpBtn" class="calcUpBtn" onclick="openCalc();">&#9650</div>
 			<div id="calcDwnBtn" class="calcDwnBtn" onclick="closeCalc();">&#9660</div>
 			<?php 
-				include 'calc.html';
+				include 'calculators/calc.html';
 			?>
 		</div>
 

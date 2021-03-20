@@ -8,15 +8,15 @@
 <div class="secSep"></div>
 <p></p>
 <div class="secSep"></div>
-<h2>What does the website include?</h2>
+<h2>What does the section include?</h2>
 <div class="secSep"></div>
 <p></p>
 <div class="secSep"></div>
-<h2>Where is Electrical Engineering Use?</h2>
+<h2>Where is Electrical Engineering Used?</h2>
 <div class="secSep"></div>
 <p></p>
 <div class="secSep"></div>
-<h2>Resources</h2>
+<h2>External Resources</h2>
 <div class="secSep"></div>
 <p></p>
 <?php

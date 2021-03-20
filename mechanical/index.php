@@ -2,14 +2,23 @@
 	$title = "Mechanical Design";
 	require "../header.php";
 ?>
-<H1>Mechanical Design</H1>
+<h1>Mechanical Design</h1>
 <div class="mainSep"></div>
-<p>Welcome to Mechanical Design. This section is divided into 3 section currently:</p>
-<ul>
-	<li>Design</li>
-	<li>GD&T</li>
-	<li>Manufacturing</li>
-</ul>
+<h2>What is Mechanical Design?</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>What does the section include?</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Where is Mechanical Design Used?</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>External Resources</h2>
+<div class="secSep"></div>
+<p></p>
 <?php
 	require "../footer.php";
 ?>
