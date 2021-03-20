@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="10mm" height="11.5mm">
+  <desc>Trimmer capacitor symbol according to GOST 2.728-74.</desc>
+  <g fill="none" stroke="black" stroke-width="1pt" >
+    <line x1="1mm" y1="5mm"    x2="9mm" y2="5mm"    />
+    <line x1="1mm" y1="6.5mm"  x2="9mm" y2="6.5mm"  />
+    <line x1="5mm" y1="0mm"    x2="5mm" y2="5mm"    />
+    <line x1="5mm" y1="6.5mm"  x2="5mm" y2="11.5mm" />
+    <line x1="2mm" y1="8.75mm" x2="8mm" y2="2.75mm" />
+    <line x1="7mm" y1="1.75mm" x2="9mm" y2="3.75mm" />
+  </g>
+</svg>
