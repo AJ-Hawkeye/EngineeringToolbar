@@ -359,3 +359,8 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
+
+/*Display no scrollbar*/
+::-webkit-scrollbar{
+  display: none;
+}

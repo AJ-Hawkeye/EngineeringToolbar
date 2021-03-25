@@ -4,6 +4,11 @@
 ?>
 <h1>The Mighty Datum</h1>
 <div class="mainSep"></div>
+
+<div class="fig" align="center">
+	<img src="img/Features1.PNG" width="500px">
+	<p class="figTxt"><i>Figure 1: Common Datums</i></p>
+</div>
 <h2>Degrees of Freedom</h2>
 <div class="secSep"></div>
 <p>Two classes:</p>

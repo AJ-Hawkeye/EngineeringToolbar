@@ -148,9 +148,9 @@
 			</div></a></td>
 			
 			<!-- About Me -->
-			<td width="17%" align="center"><a href="/aboutMe"><div id="navEl" class="navEl">
-				<p id="navTxt" class="navTxt">About Me</p>
-				<img <?php if ($darkMode == true) {echo "src=\"/img/profileW.png\"";}else {echo "src=\"/img/profileB.png\"";}?> class="navImg grow" id="navImg">
+			<td width="17%" align="center"><a href="/aboutUs"><div id="navEl" class="navEl">
+				<p id="navTxt" class="navTxt">About Us</p>
+				<img <?php if ($darkMode == true) {echo "src=\"/img/logoSoloW.png\"";}else {echo "src=\"/img/logoSoloB.png\"";}?> class="navImg grow" id="navImg">
 			</div></a></td>
 
 			<!-- News -->
@@ -160,25 +160,31 @@
 			</div></a></td>
 		</tr></table>
 
-		<!-- Calculator -->
-		<div id="calcTray" class="calcTray">
+		<!-- Calculator  (No production yet)-->
+		<!-- <div id="calcTray" class="calcTray">
 			<div id="calcUpBtn" class="calcUpBtn" onclick="openCalc();">&#9650</div>
 			<div id="calcDwnBtn" class="calcDwnBtn" onclick="closeCalc();">&#9660</div>
 			<?php 
-				include 'calculators/calc.html';
+				// include 'calculators/calc.html';
 			?>
-		</div>
+		</div> -->
 
 		<!-- Footer -->
 		<div id="footer" class="footer"><table class="footerTb" id="footerTb">
 			<tr>
+				<!-- Currently Empty -->
 				<td width="33%" align="center"></td>
-				<td width="33%" align="center"></td>
+				<!-- Website Date -->
+				<td width="33%" align="center">March 2021</td>
 				<!-- Social Logos -->
 				<td width="33%" align="right"><div><table id="socialButtons" class="socialButtons"><tr>
-					<td><a href="https://www.linkedin.com/in/aj-hawkeye/"><img <?php if ($darkMode == true) {echo "src=\"/img/linkedinW.png\"";}else {echo "src=\"/img/linkedinB.png\"";}?> class="grow"></a></td>
+					<!-- GitHub -->
+					<td><a href="https://github.com/AJ-Hawkeye/EngineeringToolbar"><img <?php if ($darkMode == true) {echo "src=\"/img/gitHubW.png\"";}else {echo "src=\"/img/gitHubB.png\"";}?> class="grow"></a></td>
+					<!-- Email -->
 					<td><a href="mailto:ajhawkeyecoding@gmail.com"><img <?php if ($darkMode == true) {echo "src=\"/img/enevelopeW.png\"";}else {echo "src=\"/img/enevelopeB.png\"";}?> class="grow"></a></td>
+					<!-- Youtube -->
 					<td><a href="https://www.youtube.com/channel/UCqXJYywwtdoPYTtIgCfxa2w"><img <?php if ($darkMode == true) {echo "src=\"/img/youtubeW.png\"";}else {echo "src=\"/img/youtubeB.png\"";}?> class="grow"></a></td>
+					<td width="40px"></td>
 				</tr></table></div></td>
 			</tr>
 		</table></div>

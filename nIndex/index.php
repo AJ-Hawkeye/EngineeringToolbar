@@ -4,19 +4,6 @@
 ?>
 <H1>Website News!</H1>
 <p>The portal for all things new in the website!</p>
-<h2>Current Staff</h2>
-<table id="staffTable" class="staffTable">
-	<tr>
-		<th>Name</th>
-		<th>Contact</th>
-		<th>Role</th>
-	</tr>
-	<tr>
-		<td>AJ_Hawkeye</td>
-		<td><a href="mailto:ajhawkeyecoding@gmail.com"><img <?php if ($darkMode == true) {echo "src=\"/img/enevelopeW.png\"";}else {echo "src=\"/img/enevelopeB.png\"";}?> class="grow"></a></td>
-		<td>Founder</td>
-	</tr>
-</table>
 <!-- Row 1 -->
 <div class="row">
 	<!-- First Entry -->

@@ -41,51 +41,18 @@
 			function displayWindowSize(){bgcanvas();}
 	     	window.addEventListener("resize",displayWindowSize);
 		</script>
-		<!-- Storing Dark Mode Status -->
-		<script>
-			//One loading create cookie of darkMode = false for 30days
-			window.addEventListener("onload",setCookie("darkMode", false, 30));
-			// sets the cookie depending on the arguments
-			function setCookie(cname, cvalue, exdays) {
-				var d = new Date();
-				d.setTime(d.getTime() + (exdays*24*60*60*1000));
-				var expires = "expires="+ d.toUTCString();
-				document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-			}
-			//returns the value of the cookie with the name of the cookie
-			function getCookie(cname){
-				var name = cname + "=";
-				var decodedCookie = decodeURIComponent(document.cookie);
-				var ca = decodedCookie.split(';');
-				for (var i = 0; i < ca.length; i++) {
-					var c = ca[i];
-					while (c.charAt(0) == ' '){
-						c = c.substring(1);
-					}
-					if (c.indexOf(name) == 0) {
-						return c.substring(name.length, c.length);
-					}
-				}
-				return "";
-			}
-			// toggles the value of darkMode
-			function toggleDarkMode() {
-				setCookie("darkMode",!(getCookie("darkMode")),30);
-			}
-		</script>
-
 		<!-- Start of mainContent -->
 		<div class="mainContent" id="mainContent">
 			<!-- Dark Mode Toggle (not working currently) -->
-			<div class="darkToggleEl" id="darkToggleEl">
+			<!-- <div class="darkToggleEl" id="darkToggleEl">
 				<img src="/img/dark.png">
 				<label class="switch" onclick="toggleDarkMode();">
 					<input type="checkbox">
 					<span class="slider"></span>
 				</label>
 				<img src="/img/light.png">
-			</div>
-
+			</div> -->
+			
 			<!-- Side Bar Navigation Div-->
 			<div class="sideBar" id="navEl">
 				<!-- Child of SideBarNav -->

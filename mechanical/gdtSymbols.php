@@ -4,7 +4,7 @@
 ?>
 <H1>GD&T Symbols</H1>
 <div class="secSep"></div>
-<p></p>
+<p>When learning GD&T, symbols play an important role in allowing engineers to design for manufacturing. With symbols you can determine what features are important to create parts that will always fit together.</p>
 <div class="secSep"></div>
 <table width="100%">
 	<tr>
@@ -24,19 +24,19 @@
 	<tr>
 		<td><img src="img/flatness.png" style="width: 50px; height: 50px;"></td>
 		<td>Flatness</td>
-		<td></td>
+		<td>Creates 2 planes for tolerance.</td>
 		<td>U+23E5</td>
 	</tr>
 	<tr>
 		<td><img src="img/cylindricity.png" style="width: 50px; height: 50px;"></td>
 		<td>Cylindricity</td>
-		<td></td>
+		<td>Creates two cylindrical planes for tolerance.</td>
 		<td>U+232D</td>
 	</tr>
 	<tr>
 		<td><img src="img/circularity.png" style="width: 50px; height: 50px;"></td>
 		<td>Circularity</td>
-		<td></td>
+		<td>Creates</td>
 		<td>U+25CB</td>
 	</tr>
 	<tr>

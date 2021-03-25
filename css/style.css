@@ -17,6 +17,7 @@ b {
 i {
   font-style: italic;
 }
+/*Underline Format*/
 u {
   text-decoration-line: underline; 
 }
@@ -111,6 +112,7 @@ a {
   font: 25px Tahoma, san-serif;
   opacity: 100%;
 }
+/*Nav Table sidebar push animation.*/
 .navTb {
   transition: margin-left .5s;
 }
@@ -164,6 +166,7 @@ a {
   -webkit-transform: scale(1.1) rotate(4deg);
   transform: scale(1.1) rotate(4deg);
 }
+/*Side navbar*/
 .sidenav {
   width: 0;
   top: 0;
@@ -179,13 +182,12 @@ a {
   overflow-y: scroll;
   overflow-x: hidden;
 }
-::-webkit-scrollbar{
-  display: none;
-}
+/*Side Navbar button on the nav table*/
 .sideNavBtn {
   margin-top: 35px;
   border-radius: 30px;
 }
+/*Side navbar text format*/
 .sidenav a, .dropdown-btn {
   padding: 8px;
   text-decoration: none;
@@ -195,14 +197,16 @@ a {
   border-radius: 30px;
   transition: 0.3s;
 }
-
+/*Side navbar hover color*/
 .sidenav a:hover, .dropdown-btn:hover {
   color: #f1f1f1;
 }
+/*Slideshow Button color*/
 .active {
   background-color: #00FFB6;
   color: white;
 }
+/*Side bar dropdown format*/
 .dropdown-container {
   max-height: 0;
   overflow: hidden;
@@ -212,10 +216,12 @@ a {
   border-radius: 30px;
   transition: height 0.3s ease-in;
 }
+/*expand symbol dropdown format*/
 .fa-caret-down {
   float: right;
   padding-right: 8px;
 }
+/*Sidebar close button format*/
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -223,7 +229,7 @@ a {
   font-size: 36px;
   margin-left: 50px;
 }
-
+/*Main Content */
 .MainContent {
   transition: margin-left .3s;
 }
@@ -392,4 +398,10 @@ input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
+}
+.userForm {
+  text-align: center;
+  border-radius: 20px;
+  height: 30px;
+  width: 350px;
 }

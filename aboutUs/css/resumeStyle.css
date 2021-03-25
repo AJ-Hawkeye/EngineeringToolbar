@@ -1,0 +1,46 @@
+.skills{
+	text-align: center;
+	padding-bottom: 2px;
+	min-height: 2px;
+	border-radius: 2px;
+	background-color: #6cff45;
+	width: 40%;
+}
+.empTitle, .edTitle {
+	padding: 10px;
+	border-bottom: 1px dashed #c7c7c7c7;
+}
+.Object {
+	padding: 10px;
+	font-size: 18px;
+	font-family: tahoma, san-serif;
+	text-align: center;
+}
+.contact {
+	width: 100%;
+	font-size: 18px;
+	color: #525252;
+	text-align: center;
+	vertical-align: middle;
+}
+.emailLink {
+	color: #525252;
+}
+.ResName {
+	font-size: 42px;
+	font-family: tahoma, san-serif;
+	text-align: center;
+	font-weight: bold;
+}
+.expDesc {
+	padding-left: 25px;
+}
+.References {
+	width: 90%;
+	font-size: 20px;
+	text-align: center;
+}
+.cl {
+	padding: 50px;
+	font-size: 24px;
+}
