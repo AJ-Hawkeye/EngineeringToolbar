@@ -1,8 +1,8 @@
 <?php
-	$title = "Engineering Mathamatics";
+	$title = "Thermodynamics";
 	require "../header.php";
 ?>
-<h1>Engineering Mathamatics</h1>
+<h1>Thermodynamics</h1>
 <div class="mainSep"></div>
 <h2>What is Engineering Mathamatics?</h2>
 <div class="secSep"></div>

@@ -3,18 +3,21 @@
 	require "../header.php";
 ?>
 <div class="secSep"></div>
-<h2>Equation Table</h2>
+<h2>Straightness</h2>
 <div class="secSep"></div>
-<table class="EquationTB">
-	<!-- Table Head -->
-	<thead><tr class="EqTBHeader">
-			<th><h2>Equation ID</h2></th>
-			<th><h2>Equation Name</h2></th>
-			<th><h2>Equation</h2></th>
-			<th><h2>Requires</h2></th>
-			<th><h2>Extends</h2></th>
-	</tr></thead>
-</table>
+<p></p>
+<div class="secSep"></div>
+<h2>Flatness</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Circularity</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Cylindricity</h2>
+<div class="secSep"></div>
+<p></p>
 <div class="secSep"></div>
 <h2>Glossary</h2>
 <div class="secSep"></div>

@@ -160,6 +160,13 @@
 	<tbody>
 		<tr>
 			<td>E-?</td>
+			<td>Capacitor Formula</td>
+			<td>$$C = 0.2235 {{KA}\over{d}} (N-1)$$</td>
+			<td>Dielectric constant, Area of plate, distance between plates, Number of plates</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>E-?</td>
 			<td>Capacitance in a Series Circuit</td>
 			<td>$${{1}\over{C_{Total}}} = {{1}\over{C_1}} + {{1}\over{C_2}} + {{1}\over{C_n}}$$</td>
 			<td></td>

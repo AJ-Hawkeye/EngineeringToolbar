@@ -4,7 +4,7 @@
 ?>
 <H1>Fasteners</H1>
 <div class="secSep"></div>
-<h2>Calculating For Dean</h2>
+<h2>Solving Fastener Questions</h2>
 <div class="secSep"></div>
 <table>
 	<tr>
@@ -13,103 +13,44 @@
 		<th>References</th>
 	</tr>
 	<tr>
-		<td>$$P_{init} = \sum P$$</td>
+		<td>$$P_{init} = \sum P \text{%preload}$$</td>
 		<td>Add all of the initial loads together.</td>
-		<td>Should be given in the question.</td>
+		<td>The %preload should be given in the question (assume 100% if not given).</td>
 	</tr>
 	<tr>
-		<td>$$P_{pre} =  P_{init} \times SF$$</td>
+		<td>$$P_{pre} =  P_{init} \times SF \times $$</td>
 		<td>Muliply the Initial load with the safety factor.</td>
 		<td>Given value (assume SF = 2 for general)</td>
 	</tr>
 	<tr>
 		<td>$$F_{proof} =A_s \times \sigma _{proof}$$</td>
-		<td>To find $F_{proof}$ we need to multiply the tensile stress area by the </td>
+		<td>To find bolt strength we need to multiply the tensile stress area by the tensile strength of the bolt.</td>
+		<td>Find the tensile stress in the table below or in a bolt chart, and the tensile strength should be there to.</td>
+	</tr>
+	<tr>
+		<td>$$F_{max} = F_{proof} \times \text{proof load %}$$</td>
+		<td>We need to find the maximum bolt strength, take the bolt strength and multiply it by the proof load %.</td>
+		<td>Proof load should always be in the question.</td>
+	</tr>
+	<tr>
+		<td>$$n = {{P_{pre}}\over{F_{max}}}$$</td>
+		<td>To find the number of bolts required we divide the preload by the maximum bolt strength. This will give us a number with decimals. Since bolts come in only whole numbers, we will always round up for the final number of bolts</td>
+		<td>Both where calculated previously.</td>
+	</tr>
+	<tr>
+		<td>$$T_{min} = K\times D\times \left({{P_{pre}}\over{n}}\right)$$</td>
+		<td>To find the minimum torque we must take the preload and divid it by the number of fastners (rounded) and multiply the result by the nut factor and the diameter of the bolt.</td>
+		<td>The nut factor is found in the table below and is dependant on the surface of the bolt.</td>
+	</tr>
+	<tr>
+		<td>$$T_{max} = K\times D\times F_{max}$$</td>
+		<td>To find the maximum torque we must take the nut factor, bolt diameter, and the maximum bolt strength and multiply together. </td>
+		<td>The nut factor is found in the table below and is dependant on the surface of the bolt.</td>
 	</tr>
 </table>
+<p>This should get the number of fasteners needed and the torque range required for your design.</p>
 <div class="secSep"></div>
-<h2>Test Questions</h2>
-<div class="secSep"></div>
-<h5>What does the forumla $T = KDP$ provide?</h5>
-<p>Minimum torque value</p>
-<div class="secSep"></div>
-<h5>A hex head cap screw is identified as an M10 x 1.25 x 30. What does the 1.25 represent?</h5>
-<p>Thread pitch in mm/thread</p>
-<div class="secSep"></div>
-<h5>What is "Proof Load" and what is the recommended maximum vlue used?</h5>
-<p>The maximum  load a bolt can take without permanent deformation.</p>
-<div class="secSep"></div>
-<h5>Why would you use an insert for a threaded fastener?</h5>
-<p>To repair stripped threads, improving vibration resistance, or increasing joint strength.</p>
-<div class="secSep"></div>
-<h5>Name and sicuss several factors to be consider when determining a fastener preload.</h5>
-<p>Joint pressure, what is the application of joining, where is it being used, what is being joined together (gas or liquid).</p>
-<div class="secSep"></div>
-<h5>Compare rolled threads to cut threads.</h5>
-<p>Cut threads remove material, where rolled threads are pressed into shape. Rolled threads are often stronger as no material is removed creating areas where fracturing is possible.</p>
-<div class="secSep"></div>
-<h5>What is the grade of bolt with 6 radial lines on the head?</h5>
-<p>Grade 8</p>
-<div class="secSep"></div>
-<h5>For a threaded fastener in the Unified series, what does the designation UNEF stand for?</h5>
-<p>Unified National Extra Fine</p>
-<div class="secSep"></div>
-<h5>Name a significant feature of pipe threads.</h5>
-<p>Pipe threads are tapered so they seal as they tighten.</p>
-<div class="secSep"></div>
-<h5>What is the difference between a cap screw that was 1/2 inch in diameter and threaded UNF and a similar one that is UNC?</h5>
-<p>UNF will have </p>
-<div class="secSep"></div>
-<h5>Discuss the advantages of a fine thread vs a coarse thread.</h5>
-<p>Fine treads provide better joint strength.</p>
-<div class="secSep"></div>
-<h5>What is the Minor Diameter of a bolt?</h5>
-<p>The diameter of the core of the bolt.</p>
-<div class="secSep"></div>
-<h5>What type of material or application would require a threaded insert?</h5>
-<p>Softer material like wood or aluminum.</p>
-<div class="secSep"></div>
-<h5>What does the designation UNC stand for?</h5>
-<p>Unified Nation Coarse Thread</p>
-<div class="secSep"></div>
-<h5>For a threaded fastener, what advantage/disadvantage does a fine thread provide?</h5>
-<p>Fine threads will provide greater bolt strength but less torque.</p>
-<div class="secSep"></div>
-<h5>What does the grade of a bolt indicate?</h5>
-<p>Material, and hardness.</p>
-<div class="secSep"></div>
-<h5>Name a semi-permanent fastener. Discuss its applications.</h5>
-<p>Rivets, are often used to fuse body panels on aircraft to deal with high shear stresses.</p>
-<div class="secSep"></div>
-<h5>Why is a treaded insert able to carry more load than the original thread?</h5>
-<p>There is a larger surface area for the thread to use therefore it is a larger bolt.</p>
-<div class="secSep"></div>
-<h5>What is the difference between a Grade 5 and Grade 8 bolt?</h5>
-<p>Often made of stronger materials.</p>
-<div class="secSep"></div>
-<h5>Is every unmarked bolt a Grade 2 bolt? Discuss any exceptions.</h5>
-<p>Grade 1 bolts also have no markings. Always keep your fasteners organized.</p>
-<div class="secSep"></div>
-<h5>What is the purpose of a flat washer? Lock washer?</h5>
-<p>To protect the materal under the fastner, or to adjust the grip length or provide a locking mechanism. </p>
-<div class="secSep"></div>
-<h5>Why would a nut be specified to have a plastic insert?</h5>
-<p>To use a softer material to prevent the nut from loosening.</p>
-<div class="secSep"></div>
-<h5>Why would a distorted thread locknut NOT be used on a removable component?</h5>
-<p>Once a locknut has been used it is difficult to remove without damaging the joint or part.</p>
-<div class="secSep"></div>
-<h5>What is a jam nut?</h5>
-<p>It jams together with another nut to create tension to keep the bolt inplace.</p>
-<div class="secSep"></div>
-<h5>Should the hole for a self tapping fastener be drilled? Why?</h5>
-<p>Pre-drilling will prevent cracking in the wood.</p>
-<div class="secSep"></div>
-<h5>Name two set-screw point types and their uses.</h5>
-<p>Flat set-screw require a flat section on the shaft of to hold the part in place. Half dogs require a small hole to keep the pulley in place.</p>
-<div class="secSep"></div>
-<div class="mainSep"></div>
-<h1>Reference</h1>
+<h2></h2>
 <div class="secSep"></div>
 <h2>Categories</h2>
 <div class="secSep"></div>
@@ -170,6 +111,119 @@
 			<td>2</td>
 		</tr>
 	</tbody>
+</table>
+<div class="secSep"></div>
+<h3>Nut Factors</h3>
+<div class="secSep"></div>
+<table>
+	<tr>
+		<th>Bolt Condition</th>
+		<th>K range</th>
+	</tr>
+	<tr>
+		<td>Non-plated, black finish</td>
+		<td>0.20-0.30</td>
+	</tr>
+	<tr>
+		<td>Zinc-plated</td>
+		<td>0.17-0.22</td>
+	</tr>
+	<tr>
+		<td>Lubricated</td>
+		<td>0.12-0.16</td>
+	</tr>
+	<tr>
+		<td>Cadmium-plated</td>
+		<td>0.11-0.15</td>
+	</tr>
+</table>
+
+<div class="mainSep"></div>
+<h2>Equation Table</h2>
+<div class="secSep"></div>
+<table class="EquationTB">
+	<!-- Table Head -->
+	<thead><tr class="EqTBHeader">
+			<th><h2>Equation ID</h2></th>
+			<th><h2>Equation Name</h2></th>
+			<th><h2>Equation</h2></th>
+			<th><h2>Requires</h2></th>
+			<th><h2>Extends</h2></th>
+	</tr></thead>
+	<tbody>
+		<tr>
+			<td>M-?</td>
+			<td>Preload</td>
+			<td>$$P_{pre} = S \times \text{Load} \times \text{%preload}$$</td>
+			<td>Safety Factor, Total Load, % Preload</td>
+			<td>Quantity of Bolts</td>
+		</tr>
+		<tr>
+			<td>M-?</td>
+			<td>Fastener Strength</td>
+			<td>$$F_{proof} = A_s\times \sigma_{proof}$$</td>
+			<td>Stress Area, Tensile Strength</td>
+			<td>$F_{max}$</td>
+		</tr>
+		<tr>
+			<td>M-?</td>
+			<td>Maximum Fastener Strength</td>
+			<td>$$F_{max} = F_{proof} \times\text{Proof load}$$</td>
+			<td>Fastener Strength, Proof load</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>M-?</td>
+			<td>Tensile Strength of Fastener</td>
+			<td>$$P = S_t\times A_s$$</td>
+			<td>Tensile Strength, Stress Area</td>
+		</tr>
+		<tr>
+			<td>M-?</td>
+			<td>Fastner Torque</td>
+			<td>$$T = K\times d \times F$$</td>
+			<td>Nut Factor, Bolt Diameter, Bolt Tension</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>M-?</td>
+			<td>Quantity of Bolts</td>
+			<td>$$n = {{P_{pre}}\over{F_{max}}}$$</td>
+			<td>Preload, Maximum Fastener Strength</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>M-?</td>
+			<td>Minimum Torque on Bolt</td>
+			<td>$$T_{min} = K\times D\times \left({{P_{pre}}\over{n}}\right)$$</td>
+			<td>Nut Factor, Bolt Diameter, Preload, Number of Bolts</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>M-?</td>
+			<td>Maximum Torque on Bolt</td>
+			<td>$$T_{max} = K\times D\times F_{max}$$</td>
+			<td>Nut Factor, Bolt Diameter, Maximum Fastener Strength</td>
+			<td></td>		
+		</tr>
+	</tbody>
+</table>
+<div class="secSep"></div>
+<h2>Glossary</h2>
+<div class="secSep"></div>
+<table>
+	<tr>
+		<th>Term</th>
+		<th>Definition</th>
+	</tr>
+</table>
+<div class="secSep"></div>
+<h2>References</h2>
+<div class="secSep"></div>
+<table>
+	<tr>
+		<th></th>
+	</tr>
 </table>
 <?php
 	require "../footer.php";

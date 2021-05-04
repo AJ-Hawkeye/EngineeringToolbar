@@ -136,9 +136,14 @@
 			</div></a></td>
 
 			<!-- Fluid Mechanics -->
-			<td width="17%" align="center"><a href="/fMech"><div id="navEl" class="navEl">
+			<td width="12%" align="center"><a href="/fMech"><div id="navEl" class="navEl">
 				<p id="navTxt" class="navTxt">Fluid Mechanics</p>
 				<img <?php if ($darkMode == true) {echo "src=\"/img/dropW.png\"";}else {echo "src=\"/img/dropB.png\"";}?> class="navImg grow" id="navImg">
+			</div></a></td>
+			<!-- Thermodynamics -->
+			<td width="12%" align="center"><a href="/therm"><div id="navEl" class="navEl">
+				<p id="navTxt" class="navTxt">Thermodynamics</p>
+				<img <?php if ($darkMode == true) {echo "src=\"/img/thermW.png\"";}else {echo "src=\"/img/thermB.png\"";}?> class="navImg grow" id="navImg">
 			</div></a></td>
 
 			<!-- Material Science -->
@@ -148,7 +153,7 @@
 			</div></a></td>
 			
 			<!-- About Me -->
-			<td width="17%" align="center"><a href="/aboutUs"><div id="navEl" class="navEl">
+			<td width="9%" align="center"><a href="/aboutUs"><div id="navEl" class="navEl">
 				<p id="navTxt" class="navTxt">About Us</p>
 				<img <?php if ($darkMode == true) {echo "src=\"/img/logoSoloW.png\"";}else {echo "src=\"/img/logoSoloB.png\"";}?> class="navImg grow" id="navImg">
 			</div></a></td>

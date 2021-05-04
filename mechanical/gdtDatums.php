@@ -41,7 +41,9 @@
 <div class="secSep"></div>
 <p></p>
 <div class="secSep"></div>
-
+<h2>Datum Shift</h2>
+<div class="secSep"></div>
+<p></p>
 <div class="secSep"></div>
 <h2>The Datum Feature Symbol</h2>
 <div class="secSep"></div>
@@ -51,6 +53,11 @@
 <div class="secSep"></div>
 <p></p>
 <div class="secSep"></div>
+<h2>Envelopes VS. Boundries</h2>
+<div class="secSep"></div>
+<p>Envelopes are on the manufactured part and are often refered to as AME (Actual Mating Envelope). <br> Boundaries are theoretical and found using the drawing itself. <br> If the envelope is larger than the boundary then it is scrap.</p>
+<p>If the envelope will be a datum the envelope will become a related envelope and as a result be named a RAME(Related AME).</p>
+
 <?php
 	require "../footer.php";
 ?>

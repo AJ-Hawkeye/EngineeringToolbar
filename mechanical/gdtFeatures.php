@@ -27,19 +27,6 @@
 <h2>Features Without Size</h2>
 <div class="secSep"></div>
 <p>Features that cannot be measured easily with calipers. Without opposing planes.</p>
-<div class="mainSep"></div>
-<h2>Equation Table</h2>
-<div class="secSep"></div>
-<table class="EquationTB">
-	<!-- Table Head -->
-	<thead><tr class="EqTBHeader">
-			<th><h2>Equation ID</h2></th>
-			<th><h2>Equation Name</h2></th>
-			<th><h2>Equation</h2></th>
-			<th><h2>Requires</h2></th>
-			<th><h2>Extends</h2></th>
-	</tr></thead>
-</table>
 <div class="secSep"></div>
 <h2>Glossary</h2>
 <div class="secSep"></div>
@@ -47,6 +34,9 @@
 	<tr>
 		<th>Term</th>
 		<th>Definition</th>
+	</tr>
+	<tr>
+		<td><b>Envelope</b> - The largest pin that can fit into a machined hole.</td>
 	</tr>
 </table>
 <div class="secSep"></div>

@@ -1,7 +1,10 @@
 <?php
-	$title = "Motors";
+	$title = "Insulators";
 	require "../header.php";
 ?>
+<h1>Insulators</h1>
+<div class="secSep"></div>
+<h2></h2>
 <div class="mainSep"></div>
 <h2>Equation Table</h2>
 <div class="secSep"></div>
@@ -14,6 +17,13 @@
 			<th><h2>Requires</h2></th>
 			<th><h2>Extends</h2></th>
 	</tr></thead>
+	<tbody>
+		<tr>
+			<td>E-?</td>
+			<td></td>
+			<td>$$$$</td>
+		</tr>
+	</tbody>
 </table>
 <div class="secSep"></div>
 <h2>Glossary</h2>

@@ -40,6 +40,8 @@
 	</tr>
 </table>
 <div class="secSep"></div>
+<h2>Trigonometry Derivative Table</h2>
+<div class="secSep"></div>
 <h2>Implicit Differentiation</h2>
 <div class="secSep"></div>
 <p>Find ${{dy}\over{dx}}$ where, $x^2 +y^2 +2xy+ 1$.</p>
@@ -53,6 +55,33 @@
 		<td>$$2x^2-1 + {{d(y^2)}\over{dx}} + \left( \right)$$</td>
 		<td></td>
 		<td></td>
+	</tr>
+</table>
+<div class="secSep"></div>
+<h2>Applications</h2>
+<div class="secSep"></div>
+<h3>Tangent Lines</h3>
+<div class="secSep"></div>
+<p>With derivatives, finding slopes and tangents is very important. Using the derivative you can find the equation tangent to original equation with these easy steps:</p>
+<table width="100%">
+	<tr>
+		<th>Math</th>
+		<th>Explanation</th>
+		<th>Reference</th>
+	</tr>
+	<tr>
+		<td>$$y=x^2$$</td>
+		<td>Given $y = x^2$ what is the equation of the tangent line at (1,2)?</td>
+		<td>Given</td>
+	</tr>
+	<tr>
+		<td>$${{dy}\over{dx}} = 2x$$</td>
+		<td>First take the derivative of the equation.</td>
+		<td>Power Rule</td>
+	</tr>
+	<tr>
+		<td>$${{dy}\over{dx}}\rvert _{1} = 2(2)$$</td>
+		<td>Now we evaluate the derivative by plugging x</td>
 	</tr>
 </table>
 <div class="secSep"></div>

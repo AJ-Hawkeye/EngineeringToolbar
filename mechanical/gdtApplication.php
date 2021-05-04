@@ -1,24 +1,27 @@
 <?php
-	$title = "Orientation";
+	$title = "Application";
 	require "../header.php";
 ?>
 <div class="secSep"></div>
-<h2>Angularity</h2>
+<h2>Steps</h2>
 <div class="secSep"></div>
 <p></p>
 <div class="secSep"></div>
-<h2>Perpendicularity</h2>
+<h3>Define Datums</h3>
 <div class="secSep"></div>
-<p></p>
+<p>Find the mating surfaces and choose the most important one in mechanical purpose. Try to constrain the 3 translational dimensions (X,Y,Z). Do not place on FCF, always extend.</p>
 <div class="secSep"></div>
-<h2>Parallelism</h2>
+<h2>Qualify Datums</h2>
 <div class="secSep"></div>
-<p></p>
+<p>Choose the appropraite symbols for datums to constrain them. (FORM SYMBOLS) </p>
 <div class="secSep"></div>
-<h2></h2>
+<h2>Feature Control Frames</h2>
 <div class="secSep"></div>
-<p></p>
+<p>Create FCF for the appropreate symbols for the important features.</p>
 <div class="secSep"></div>
+<h2>Modifiers</h2>
+<div class="secSep"></div>
+<p>Add modifiers as needed.</p>
 <div class="secSep"></div>
 <h2>Glossary</h2>
 <div class="secSep"></div>
